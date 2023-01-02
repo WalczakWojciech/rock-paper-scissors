@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(66, 118, 164);
+}
+
+h2 {
+    color: white;
+    padding: 10px;
+}
+
+.result {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 150px;
+    background-color: rgb(100, 145, 212);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(100, 145, 212);
+}
+
+button {
+    background-color: rgb(95, 149, 131);
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 40px;
+}
